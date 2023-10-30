@@ -120,7 +120,8 @@ a:hover{
 }
 
 .menu-links.open{
-    max-height:400px;
+    max-height:450px;
+    border-style: solid;
     z-index:100;
 }
 
@@ -163,6 +164,7 @@ section{
 
 .section-container{
     display:flex;
+    justify-content:center;
 }
 
 /* PROFILE/HOME SECTIONS */
@@ -330,7 +332,7 @@ section{
 }
 
 /* EXPERIENCE SECTION */
-#experience{
+#skills{
     position:relative;
 }
 
@@ -382,14 +384,44 @@ article .icon{
 .demoreel-container{
     margin-bottom:2rem;
     position:relative;
-    align-items: center;
+    align-items: stretch;
 }
 
 .demoreel-video-container{
     display:flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: orangered; */
+    height:90%;
+    /* background:cyan; */
+}
+
+.demoreel-video-box{
+    /* background: greenyellow; */
+    align-items: center;
+    flex:1;
+    width:70%;
+}
+
+.demoreel-video{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+.yt-video{
+    aspect-ratio: 16/9;
+    width:45%;
+    text-align:center;
+}
+
+.box-0{
+    /* background-color:greenyellow; */
+}
+
+.box-1{
+    /* background-color: burlywood; */
 }
 
 .color-container{

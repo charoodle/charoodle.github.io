@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Example</title>
+    <title>Charlie Chao's Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/2e034686b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
@@ -14,11 +14,11 @@
         <div class="logo">Charlie Chao</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#demoreel">Demo Reel</a></li>
+                <li><a href="#demoreel">Demo Reels</a></li>
                 <li><a href="#portfolio">Game Projects</a></li>
-                <li><a href="#experience">Skills</a></li>
-                <li><a href="#other">Other</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
     </nav>
@@ -32,11 +32,11 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#demoreel" onclick="toggleMenu()">Demo Reel</a></li>
+                <li><a href="#demoreel" onclick="toggleMenu()">Demo Reels</a></li>
                 <li><a href="#porfolio" onclick="toggleMenu()">Game Projects</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#other" onclick="toggleMenu()">Other</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
             </div>
         </div>
     </nav>
@@ -85,10 +85,26 @@
             </div>
 
             <div class="demoreel-video-container">
-                <h1 class="section__text__p3">Gameplay Demo Reel</h1>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ksDMYQTz0JE?si=I4r8ttwTH8rRX4uf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <h1 class="section__text__p3">Technical Demo Reel (Debugging, Unity Editor)</h1>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aX8gXsQBUzM?si=iD-bDMHhB2p_rX5T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="demoreel-video-box box-0">
+                    
+                    <h1 class="section__text__p3">Gameplay Demo Reel</h1>
+                    
+                    <div class="demoreel-video">
+                        <iframe class="yt-video" src="https://www.youtube-nocookie.com/embed/ksDMYQTz0JE?si=I4r8ttwTH8rRX4uf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    
+                </div>
+            
+                
+                <div class="demoreel-video-box box-1">
+                    
+                    <h1 class="section__text__p3">Technical Demo Reel (Debugging, Unity Editor)</h1>
+                    
+                    <div class="demoreel-video">
+                        <iframe class="yt-video" src="https://www.youtube-nocookie.com/embed/aX8gXsQBUzM?si=iD-bDMHhB2p_rX5T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
             </div>
 
         </div>
@@ -201,9 +217,9 @@
                         <div class="project-text">
                             <ul>
                                 <li>Online co-op, top-down shooter. Blast through pouring hordes of zombies with your friends (or solo) as you try to escape a building rigged with a bomb.</li>
-                                <li>Collaborated with a team of five for a 2-month long class assignment.</li>
+                                <li>Collaborated with a team of five for a 2-month class assignment.</li>
                                 <li>Two playable characters with synergistic abilities: Gunner and Shielder.</li>
-                                <li>Coop includes revives, downs, and buffs.</li>
+                                <li>Coop gameplay includes revives, downs, buffs, debuffing zombies, and shooting AOE bullets.</li>
                             </ul>
                         </div>
                     </div>
@@ -218,12 +234,12 @@
             </div>
         </div>
         <img src="assets/arrow-down.svg" alt="Arrow Down"  class="icon arrow"
-            onclick="location.href='./#experience'"/>
+            onclick="location.href='./#skills'"/>
     </section>
 
-    <section id="experience">
+    <section id="skills">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container experience-box">
@@ -309,20 +325,22 @@
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
+            <!--
             <div class="section__pic-container">
                 <img src="./assets/about-pic.webp" alt="Profile Picture" class="about-pic" />
             </div>
+            -->
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="assets/experience.svg" alt="Experience Icon" class="icon">
                         <h3>Experience</h3>
-                        <p>3 years <br> Game Development</p>
+                        <p>3 years <br> Hobby Game Development</p>
                     </div>
                     <div class="details-container">
                         <img src="assets/education.svg" alt="Education Icon" class="icon">
                         <h3>Education</h3>
-                        <p>B.Sc. Bachelor's Degree <br> Major in Computer Game Science</p>
+                        <p>University of California, Irvine <br> Bachelor's Degree <br>Computer Game Science</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -347,8 +365,6 @@
                                 such as new releases, recent events, and new technologies.
                             </li>
                         </ul>
-
-                        <br>
 
                         <ul>
                             <li>Recent Games Played: Baldur's Gate 3, Escape from Tarkov, ULTRAKILL, PAYDAY 3, ADOFAI</li>
@@ -381,10 +397,10 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
-                    <li><a href="#demoreel">Demo Reel</a></li>
+                    <li><a href="#top">Back To Top</a></li>
+                    <li><a href="#demoreel">Demo Reels</a></li>
                     <li><a href="#portfolio">Game Projects</a></li>
-                    <li><a href="#experience">Skills</a></li>
-                    <li><a href="#other">Other</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#about">About Me</a></li>
                 </ul>
             </div>

@@ -18,6 +18,35 @@
     }
 
     /*
+    .demoreel-video{
+        height:100%;
+    }
+    */
+
+    /* Font Sizes */
+    /*
+    article{
+        font-size:3rem;
+    }
+
+    .contact-info-container p, .nav-links li a{
+        font-size: 3rem;
+    }
+
+    .experience-sub-title{
+        font-size:3.75rem;
+    }
+
+    .logo{
+        font-size: 4.5rem;
+    }
+
+    .section__text__p2{
+        font-size:3.75rem;
+    }
+    */
+
+    /*
     .about-containers, .contact-info-upper-container, .btn-container{
         flex-wrap:wrap;
     }
@@ -38,7 +67,7 @@
         display:flex;
     }
 
-    #experience, .experience-details-container{
+    #skills, .experience-details-container{
         margin-top:2rem;
     }
 
@@ -76,6 +105,18 @@
     .project-container{
         margin-top:0;
     }
+
+    /*Demoreel Video*/
+    .yt-video{
+        width:110%;
+    }
+
+    /*
+    .demoreel-video{
+        width:500px;
+        height:281.25px;
+    }
+    */
 }
 
 @media screen and (max-width: 600px){
@@ -85,10 +126,6 @@
     #profile{
         height:83vh;
         margin-bottom:0;
-    }
-
-    article{
-        font-size:1rem;
     }
 
     footer nav{
@@ -126,18 +163,6 @@
         line-height:1rem;
     }
 
-    .contact-info-container p, .nav-links li a{
-        font-size: 1rem;
-    }
-
-    .experience-sub-title{
-        font-size:1.25rem;
-    }
-
-    .logo{
-        font-size: 1.5rem;
-    }
-
     .nav-links{
         flex-direction:column;
     }
@@ -146,10 +171,6 @@
         width:auto;
         height:46vw;
         justify-content:center;
-    }
-
-    .section__text__p2{
-        font-size:1.25rem;
     }
 
     .project-img{
@@ -164,5 +185,31 @@
     .game-hero-wide{
         width:90%;
         height:200px;
+    }
+
+    /* Demoreel Video */
+    .yt-video{
+        width:120%;
+    }
+
+    /* Font Sizes - 600px*/
+    article{
+        font-size:1rem;
+    }
+
+    .contact-info-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+
+    .experience-sub-title{
+        font-size:1.25rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .section__text__p2{
+        font-size:1.25rem;
     }
 }
