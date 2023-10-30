@@ -7,21 +7,19 @@
     .about-containers{
         flex-wrap:wrap;
     }
-
-    .demoreel-container{
-        height: 100%;
-    }
-
+    
     .game-hero-lightlimits{
         width:400px;
         height:300px;
     }
 
-    /*
-    .demoreel-video{
+    .yt-video{
         height:100%;
     }
-    */
+
+    .demoreel-container{
+        width:100%;
+    }
 
     /* Font Sizes */
     /*
@@ -108,7 +106,11 @@
 
     /*Demoreel Video*/
     .yt-video{
-        width:110%;
+        width:100%;
+    }
+
+    .demoreel-container{
+        width:100%;
     }
 
     /*
@@ -189,7 +191,19 @@
 
     /* Demoreel Video */
     .yt-video{
-        width:120%;
+        width:100%;
+    }
+
+    .demoreel-video-container{
+
+    }
+
+    .demoreel-container{
+        width:100%;
+    }
+
+    .demoreel-video-box{
+        width:100%;
     }
 
     /* Font Sizes - 600px*/

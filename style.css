@@ -214,7 +214,7 @@ section{
 #socials-container{
     display:flex;
     justify-content:center;
-    margin-top:1rem;
+    margin-top:2rem;
     gap:1rem;
 }
 
@@ -222,6 +222,22 @@ section{
 .icon{
     cursor: pointer;
     height:2.5rem;
+}
+
+#socials-container img{
+    height:55px;
+    width:55px;
+}
+
+#socials-container-other{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+    gap:1rem;
+}
+
+#socials-container-other img.itch-icon{
+    width:180px;
 }
 
 /* BUTTONS */
@@ -268,11 +284,6 @@ section{
 
 .btn-container{
     gap:1rem;
-}
-
-#socials-container img{
-    height:55px;
-    width:55px;
 }
 
 /* ABOUT ME SECTION */
@@ -373,6 +384,7 @@ article .icon{
 /* DEMO REEL */
 #demoreel{
     position:relative;
+    margin-bottom:2rem;
 }
 
 /* GAME PROJECTS */
@@ -382,9 +394,10 @@ article .icon{
 }
 
 .demoreel-container{
-    margin-bottom:2rem;
     position:relative;
+    display:block;
     align-items: stretch;
+    width:100%;
 }
 
 .demoreel-video-container{
