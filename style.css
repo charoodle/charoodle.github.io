@@ -76,6 +76,13 @@ h6{
     width:30vw;
 }
 
+.section-container-flex-center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .websitelogo{
     
 }
@@ -336,6 +343,18 @@ h6{
     border-color:white;
     border-radius:2rem;
     padding:0.5rem;
+    margin-top:1rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    width:fit-content;
+
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contact-subcontainer{
@@ -362,6 +381,7 @@ h6{
 /* Credits Page */
 #credits-homepage{
     text-align:center;
+    margin-top:8rem;
 }
 
 .credits-container{

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlie's Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,39 +19,42 @@
         <section id="navbar">
             <div class="websitelogo centered">
                 <h1>Charlie Chao</h1>
+                <div class="centered-text">
+                    <h3>Game Programmer & Designer</h3>
+                </div>
             </div>
             <div class="navbar">
                 <nav>
                     <ul>
-                        <a href="/index.html">
+                        <a href="/">
                             <li class="navbar-elem">
                                 <i class="fa-solid fa-house"></i>
                                 Home
                             </li>
                         </a>
 
-                        <a href="/aboutme.html">
+                        <a href="/aboutme">
                             <li class="navbar-elem">
                                 <i class="fa-solid fa-person"></i>
                                 About Me
                             </li>
                         </a>
 
-                        <a href="/projects.html">
+                        <a href="/projects">
                             <li class="navbar-elem">
                                 <i class="fa-solid fa-gamepad"></i>
                                 Projects
                             </li>
                         </a>
 
-                        <a href="/demoreel.html">
+                        <a href="/demoreel">
                             <li class="navbar-elem">
                                 <i class="fa-solid fa-film"></i>
                                 Demo Reels
                             </li>
                         </a>
 
-                        <a href="/contactme.html">
+                        <a href="/contactme">
                             <li class="navbar-elem">
                                 <i class="fa-solid fa-envelope"></i>
                                 Contact Me
@@ -62,14 +65,40 @@
             </div>
         </section>
 
-        <section id="credits">
+        <section id="contactme">
             <div class="content-container">
-                <h2>Credits</h2>
-                <div class="credits-container">
-                    <a href="https://www.flaticon.com/free-icons/gamepad" title="gamepad icons">Gamepad icons created by Freepik - Flaticon</a>
+                <div class="section-container section-container-flex-center">
+                    <h2>Contact Me:</h2>
+                    <div class="contact-container">
+                        <div class="contact-subcontainer">
+                            <i class="fa-solid fa-envelope contact-icon"></i>
+                            <div class="centered-text">
+                                <h3>
+                                    <a class="contact-text-link" href="mailto:charliechao.dev@gmail.com">charliechao.dev@gmail.com</a>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="contact-subcontainer">
+                            <i class="fa-brands fa-linkedin contact-icon"></i>
+                            <div class="centered-text">
+                                <h3>
+                                    <a class="contact-text-link" href="https://www.linkedin.com/in/charlie-chao-779bbb258/">LinkedIn</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <section id="credits-homepage">
+            <a href="/credits">
+                <li style="list-style: none;">
+                    Credits
+                </li>
+            </a>
+        </section>
+        
     </body>
 </html>
