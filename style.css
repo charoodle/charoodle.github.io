@@ -74,6 +74,8 @@ h6{
 .section-container{
     margin:auto;
     width:30vw;
+    min-width: 500px;
+    max-width: 576px;   /* Half of 1080p */
 }
 
 .section-container-flex-center{
@@ -190,6 +192,9 @@ h6{
 .history-section-container{
     margin:auto;
     width:50vw;
+    
+    min-width: 500px;
+    max-width: 960px;       /* Half of 1920p */
 }
 
 .history-section{
