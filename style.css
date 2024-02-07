@@ -456,6 +456,7 @@ a{
 .navbar-elem{
     transition: .5s;
     font-size:1.1rem;
+    display:block;
 }
 
 .navbar-elem:hover{
@@ -464,6 +465,19 @@ a{
     margin-right:2px;
     transition: .5s;
     font-size:1.2rem;
+}
+
+.navbar-elem-currentpage{
+    background-color: var(--color-black);
+    pointer-events:none;
+}
+
+.navbar-elem-currentpage .navbar-text{
+    text-decoration: underline;
+}
+
+.navbar-text{
+    font-style: normal;
 }
 
 .navbar nav ul a {
